@@ -72,10 +72,10 @@ spec:
         resources:
           limits:
             cpu: 500m
-            memory: 500mi
+            memory: 500MI
           requests:
             cpu: 100m
-            memory: 200mi
+            memory: 200MI
         imagePullPolicy: IfNotPresent
         name: httpbin
         ports:
